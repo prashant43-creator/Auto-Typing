@@ -1,0 +1,22 @@
+body{
+  font-family: monospace;
+  background-color: #111;
+  color: #00ffcc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+.container h1 {
+  font-size: 2rem;
+}
+.auto-type{
+  border-right: 2px solid #00ffcc;
+  padding: 5px;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {border-color: #00ffcc}
+  50% {border-color: transparent}
+  100% {border-color: #00ffcc}
+}
